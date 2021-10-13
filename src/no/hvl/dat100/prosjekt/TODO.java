@@ -1,7 +1,7 @@
 package no.hvl.dat100.prosjekt;
 
 public class TODO {
-
+//no tester vi ting
 	public static String method() {
 		
 		String methodName = Thread.currentThread().getStackTrace()[2].getMethodName();
