@@ -24,6 +24,7 @@ public class KortSamling {
 	public KortSamling() {
 		
 Kort[] samling = new Kort[MAKS_KORT];
+
 	}
 
 	/**
@@ -71,8 +72,10 @@ else return false;
 	 *            er kortet som skal leggast til.
 	 */
 	public void leggTil(Kort kort) {
+
 while (antall <= MAKS_KORT) {		
-samling[antall] = kort;
+
+toString();
 antall++;
 }	
 	}
