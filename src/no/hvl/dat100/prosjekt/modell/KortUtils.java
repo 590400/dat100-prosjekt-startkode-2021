@@ -1,7 +1,5 @@
 package no.hvl.dat100.prosjekt.modell;
 
-import java.util.Random;
-
 import no.hvl.dat100.prosjekt.TODO;
 
 public class KortUtils {
@@ -16,12 +14,11 @@ public class KortUtils {
 	 */
 	
 	public static void sorter(KortSamling samling) {
-		
-		// TODO - START
-		
-		throw new UnsupportedOperationException(TODO.method());
-		// TODO - END
-	}
+		samling.
+			for (int i = 0; i < samling.getSamling().length; i++) {
+				
+			}
+		}
 	
 	/**
 	 * Stokkar en kortsamling. 

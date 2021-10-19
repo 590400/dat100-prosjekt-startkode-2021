@@ -52,7 +52,7 @@ public class KortSamling {
 
 		return antall;
 	}
-
+//hei
 	/**
 	 * Sjekker om samlinga er tom.
 	 * 
@@ -72,7 +72,7 @@ public class KortSamling {
 	 * @param kort er kortet som skal leggast til.
 	 */
 	public void leggTil(Kort kort) {
-		if (antall <= MAKS_KORT) {
+		if (antall < MAKS_KORT) {
 			samling[antall] = kort;
 			antall++;
 
@@ -90,7 +90,7 @@ public class KortSamling {
 		for (Kortfarge f : Kortfarge.values()) {
 
 			for (int i = 0; i < Regler.MAKS_KORT_FARGE; i++) {
-				samling[i + 3 * j] = new Kort(f, i + 1);
+				samling[i + Regler.MAKS_KORT_FARGE * j] = new Kort(f, i + 1);
 				antall++;
 			}
 			j++;
@@ -153,7 +153,7 @@ public class KortSamling {
 			return null;
 		}
 
-		// TODO - END
+	
 	}
 
 	/**
